@@ -133,3 +133,54 @@ body {
     border-top : 25px solid hsl(243, 100%, 93%);
     margin-left : 135px
   }
+
+  @media (max-width: 375px){
+
+    body{
+        background-image: url(/images/bg-mobile.png);
+        /* background-attachment: fixed; */
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: absolute; */
+        height: 100%;
+        /* width: 100%; */
+    }
+      .container{
+          flex-direction: column;
+          width: 90%;
+          margin: 25% auto;
+      }
+
+      .message{
+          margin: auto;
+          margin-top: 150px;
+          margin-left: 25%;
+         
+      }
+
+      .square{
+           border-radius: 10px;
+      }
+
+      .triangle{
+          border-right: 0;
+          border-left: 0;
+      }
+
+      .left{
+          /* padding: 5px; */
+      }
+
+      .right{
+          width:90%;
+          margin: auto;
+      }
+
+      .box{
+          width: 95%;
+          margin: 5% auto ;
+          margin-left: 5px;
+          /* padding-left: 20px; */
+      }
+  }
