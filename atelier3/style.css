@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 80%;
+    margin: 10% auto;
+
+}
+
+.left{
+    width: 70%;
+    /* display: flex;
+    flex-direction: row; */
+    margin-right: 2.5%;
+}
+
+.top-left {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+}
+
+
+
+.card1{
+    background-color: hsl(263, 55%, 52%);
+    width: 68%;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2.5%;
+    
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3%;
+    
+}
+
+img{
+    width: 40px;
+    border: 5px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.adj {
+    opacity: 0.5;
+}
+
+.text-title{
+    opacity: 0.7;
+    margin-top: 5%;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.card2 {
+    background-color: hsl(217, 19%, 35%);
+    width: 29.5%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.bottom-left{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-top: 2.5%;
+}
+
+.card4 {
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+    color: hsl(217, 19%, 35%);
+    margin-right: 2.5% ;
+    /* background-color: hsl(0, 0%, 100%); */
+}
+
+.card3{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.right {
+    width: 30%;
+}
+
+.card5{
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    border-radius: 10px;
+    padding: 2%;
+    color: hsl(217, 19%, 35%);
+}
