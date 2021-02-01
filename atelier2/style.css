@@ -155,11 +155,11 @@ body {
         background-repeat: no-repeat;
         /* position: absolute; */
         height: 100%;
-        /* width: 100%; */
+        width: 100%;
     }
       .container{
           flex-direction: column;
-          width: 96%;
+          width: 90%;
           margin: 25% auto;
       }
 
