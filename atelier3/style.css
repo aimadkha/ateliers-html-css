@@ -122,7 +122,11 @@ img{
     .container{
         flex-direction: column;
         margin: auto;
-        /* width: 90%; */
+        width: 90%;
+    }
+
+    .left{
+        width: 100%;
     }
 
     .top-left{
