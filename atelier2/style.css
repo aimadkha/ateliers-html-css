@@ -159,7 +159,7 @@ body {
     }
       .container{
           flex-direction: column;
-          width: 90%;
+          width: 96%;
           margin: 25% auto;
       }
 
@@ -180,7 +180,8 @@ body {
       }
 
       .left{
-          /* padding: 5px; */
+          width: 100%;
+          margin: auto;
       }
 
       .right{
