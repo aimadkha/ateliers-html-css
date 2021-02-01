@@ -137,11 +137,13 @@ img{
     }
 
     .card1 , .card2 , .card3 , .card4 , .card5 {
-        width: 90%;
+        width: 100%;
         margin: auto;
+        margin-top: 2%;
     }
 
     .bottom-left{
-        flex-direction: column;
+        flex-direction: column-reverse;
+
     }
 }
