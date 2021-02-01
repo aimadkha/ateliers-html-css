@@ -99,6 +99,16 @@ body {
     border-radius: 10px;
 }
 
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #F4FCF7;
+    opacity: 0.8;
+    margin-left: 96%;
+}
+
 .textnum{
     display: flex;
     flex-direction: row;
@@ -107,7 +117,7 @@ body {
 
 .message {
     position: absolute;
-    margin-left: 355px;
+    margin-left: 283px;
     margin-top :-50px;
 }
 
@@ -174,12 +184,12 @@ body {
       }
 
       .right{
-          width:90%;
+          width:100%;
           margin: auto;
       }
 
       .box{
-          width: 95%;
+          width: 100%;
           margin: 5% auto ;
           margin-left: 5px;
           /* padding-left: 20px; */
