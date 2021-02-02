@@ -162,4 +162,8 @@ span{
     .img > img {
         margin-right: 5%;
     }
+
+    #card3 {
+        margin-top: 0% !important;
+    }
 }
