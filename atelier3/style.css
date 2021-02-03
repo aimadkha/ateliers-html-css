@@ -131,7 +131,7 @@ img{
 }
 
 
-@media (max-width : 375px){
+@media (max-width : 600px){
     .container{
         flex-direction: column;
         margin: auto;
